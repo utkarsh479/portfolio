@@ -102,7 +102,7 @@ export default function FullWidthTabs() {
     {
       id: 1,
       Img: "/images/project1.png",
-      Title: "Weather App",
+      Title: "Weather app",
       Description: "A simple weather app using React and OpenWeatherMap API.",
       Link: "https://weather-app.vercel.app",
     },
