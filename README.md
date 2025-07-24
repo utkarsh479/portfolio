@@ -4,7 +4,7 @@ This is my personal portfolio website built with **React**, **Tailwind CSS**, an
 
 ## 🌐 Live Demo
 
-👉 [Visit my Portfolio](https://utkarsh-portfolio.vercel.app)
+👉 [Visit my Portfolio](https://utkarshtech.vercel.app)
 
 ## 📌 Features
 
