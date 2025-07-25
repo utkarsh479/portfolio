@@ -101,20 +101,19 @@ const ProjectDetails = () => {
   const [isImageLoaded, setIsImageLoaded] = useState(false);
 
   useEffect(() => {
-    window.scrollTo(0, 0);
-    const storedProjects = JSON.parse(localStorage.getItem("projects")) || [];
-    const selectedProject = storedProjects.find((p) => String(p.id) === id);
-    
-    if (selectedProject) {
-      const enhancedProject = {
-        ...selectedProject,
-        Features: selectedProject.Features || [],
-        TechStack: selectedProject.TechStack || [],
-        Github: selectedProject.Github || 'https://github.com/EkiZR',
-      };
-      setProject(enhancedProject);
-    }
-  }, [id]);
+  window.scrollTo(0, 0);
+  const selectedProject = ProjectList.find((p) => String(p.id) === id);
+
+  if (selectedProject) {
+    const enhancedProject = {
+      ...selectedProject,
+      Features: selectedProject.Features || [],
+      TechStack: selectedProject.TechStack || [],
+      Github: selectedProject.Github || 'https://github.com/EkiZR',
+    };
+    setProject(enhancedProject);
+  }
+}, [id]);
 
   if (!project) {
     return (
