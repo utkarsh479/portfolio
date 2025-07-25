@@ -108,28 +108,28 @@ export default function FullWidthTabs() {
       Link: "https://weather-app.vercel.app",
     },
     {
-      id: 1,
+      id: 2,
       Img: "/images/project1.png",
       Title: "Weather app",
       Description: "A simple weather app using React and OpenWeatherMap API.",
       Link: "https://weather-app.vercel.app",
     },
     {
-      id: 2,
+      id: 3,
       Img: "/images/project2.png",
       Title: "Portfolio Website",
       Description: "My personal portfolio built using React and Tailwind CSS.",
       Link: "https://utkarshportfolio.vercel.app",
     },
     {
-      id: 3,
+      id: 4,
       Img: "/images/project3.png",
       Title: "Hospital System",
       Description: "Admin dashboard for SOS alert with live map and bed booking.",
       Link: "",
     },
      {
-      id: 4,
+      id: 5,
       Img: "/images/project4.png",
       Title: "Aritmatika Solver",
       Description:
@@ -144,7 +144,7 @@ export default function FullWidthTabs() {
       TechStack: ["Python"]
     },
      {
-      id: 4,
+      id: 6,
       Img: "/images/project4.png",
       Title: "Aritmatika Solver",
       Description:
@@ -159,7 +159,7 @@ export default function FullWidthTabs() {
       TechStack: ["Python"]
     },
      {
-      id: 4,
+      id: 7,
       Img: "/images/project4.png",
       Title: "Aritmatika Solver",
       Description:
@@ -174,7 +174,7 @@ export default function FullWidthTabs() {
       TechStack: ["Python"]
     },
      {
-      id: 4,
+      id: 8,
       Img: "/images/project4.png",
       Title: "Aritmatika Solver",
       Description:
@@ -189,7 +189,7 @@ export default function FullWidthTabs() {
       TechStack: ["Python"]
     },
      {
-      id: 4,
+      id: 9,
       Img: "/images/project4.png",
       Title: "Aritmatika Solver",
       Description:
@@ -204,7 +204,7 @@ export default function FullWidthTabs() {
       TechStack: ["Python"]
     },
      {
-      id: 4,
+      id: 10,
       Img: "/images/project4.png",
       Title: "Aritmatika Solver",
       Description:
