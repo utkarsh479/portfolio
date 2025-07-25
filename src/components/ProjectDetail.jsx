@@ -5,6 +5,8 @@ import {
   ChevronRight, Layers, Layout, Globe, Package, Cpu, Code,
 } from "lucide-react";
 import Swal from 'sweetalert2';
+import { ProjectList } from "../projectdata"; // Adjust path as needed
+
 
 const TECH_ICONS = {
   React: Globe,
