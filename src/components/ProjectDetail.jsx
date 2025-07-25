@@ -105,6 +105,7 @@ const ProjectDetails = () => {
   useEffect(() => {
   window.scrollTo(0, 0);
   const selectedProject = ProjectList.find((p) => String(p.id) === id);
+    
 
   if (selectedProject) {
     const enhancedProject = {
