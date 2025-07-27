@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aritmatika Solver</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background: radial-gradient(circle at top left, #1e0033, #060017);
+        font-family: 'Outfit', sans-serif;
+      }
+
+      .gradient-underline::after {
+        content: "";
+        display: block;
+        width: 100px;
+        height: 4px;
+        background: linear-gradient(to right, #120830, #00f0ff);
+        border-radius: 9999px;
+        margin-top: 4px;
+      }
+
+      .glass {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+    </style>
+  </head>
+  <body class="text-white px-6 py-8 lg:px-24">
+    <!-- Back + Breadcrumb -->
+<!-- Back + Breadcrumb -->
+<div class="mb-6">
+  <a
+    href="/portfolio"
+    class="inline-block px-4 py-2 bg-[#1c1c2b] rounded-lg hover:bg-[#2e2e42] transition"
+  >
+    ← Back
+  </a>
+  <span class="ml-4 text-gray-400">
+    Projects &gt; <span class="text-white font-semibold">Aritmatika Solver</span>
+  </span>
+</div>
+
+
+    <!-- Title and Description -->
+    <h1 class="text-4xl lg:text-5xl font-extrabold gradient-underline mb-6">
+      Aritmatika Solver
+    </h1>
+    <p class="text-gray-300 max-w-2xl leading-relaxed mb-10">
+      Program ini dirancang untuk mempermudah pengguna dalam menyelesaikan soal-soal Aritmatika secara otomatis dengan menggunakan bahasa pemrogramman Python. Tujuan utama dari program ini adalah untuk membantu pengguna, terutama pelajar, dalam menyelesaikan soal-soal Aritmatika dengan lebih cepat dan mudah.
+    </p>
+
+    <!-- Image + Details Grid -->
+    <div class="grid lg:grid-cols-2 gap-10 items-center mb-10">
+      <!-- Cards -->
+      <div class="space-y-4">
+        <div class="flex gap-4">
+          <div class="glass p-6 rounded-xl w-1/2 flex flex-col items-center">
+            <div class="text-3xl">1</div>
+            <div class="text-sm text-gray-400 mt-2">Total Teknologi</div>
+          </div>
+          <div class="glass p-6 rounded-xl w-1/2 flex flex-col items-center">
+            <div class="text-3xl">3</div>
+            <div class="text-sm text-gray-400 mt-2">Fitur Utama</div>
+          </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="flex gap-4 mt-6">
+          <a href="#" class="bg-[#7f5af0] px-5 py-2 rounded-lg hover:opacity-90">Live Demo</a>
+          <a href="#" class="bg-[#2e2e42] px-5 py-2 rounded-lg hover:bg-[#3a3a5a]">Github</a>
+        </div>
+
+        <!-- Techs -->
+        <div class="mt-6">
+          <h2 class="text-lg font-semibold mb-2">🛠️ Technologies Used</h2>
+          <div class="flex gap-2 flex-wrap">
+            <span class="bg-[#2e2e42] px-3 py-1 rounded-full text-sm">Python</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image -->
+      <div>
+        <img
+          src="/weatherport.jpg"
+          alt="project screenshot"
+          class="rounded-2xl border border-[#333]"
+        />
+      </div>
+    </div>
+
+    <!-- Features -->
+    <div class="glass p-6 rounded-xl max-w-3xl">
+      <h2 class="text-lg font-semibold text-yellow-400 mb-4">🌟 Key Features</h2>
+      <ul class="space-y-3 text-gray-300 list-disc list-inside">
+        <li>Menghitung suku tertentu dari barisan aritmatika dengan menggunakan rumus suku ke-n.</li>
+        <li>Menentukan suku pertama atau beda jika hanya dua suku diketahui dalam barisan aritmatika.</li>
+        <li>Menghitung jumlah n suku pertama dari deret aritmatika dengan langkah perhitungan yang jelas.</li>
+      </ul>
+    </div>
+  </body>
+</html>
 
