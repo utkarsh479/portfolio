@@ -225,7 +225,7 @@ export default function FullWidthTabs() {
   },
   {
     id: 3,
-    Img: "/certificates/certificate3.jpg",
+    Img: "/certificates/cert3.png",
   },
 ]);
 
