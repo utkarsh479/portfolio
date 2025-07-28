@@ -214,7 +214,20 @@ export default function FullWidthTabs() {
 
   ]);
 
-  const [certificates] = useState([]);
+  const [certificates] = useState([
+  {
+    id: 1,
+    Img: "/public/certificates/cert1.jpg",
+  },
+  {
+    id: 2,
+    Img: "/public/certificates/cert2.png",
+  },
+  {
+    id: 3,
+    Img: "/certificates/certificate3.jpg",
+  },
+]);
 
   const handleChange = (event, newValue) => setValue(newValue);
 
