@@ -159,7 +159,7 @@ const AboutPage = () => {
     {
       icon: Code,
       color: "from-[#6366f1] to-[#a855f7]",
-      value: totalProjects,
+      value: 5,
       label: "Total Projects",
       description: "Innovative web solutions crafted",
       animation: "fade-right",
@@ -167,7 +167,7 @@ const AboutPage = () => {
     {
       icon: Award,
       color: "from-[#a855f7] to-[#6366f1]",
-      value: totalCertificates,
+      value: 2,
       label: "Certificates",
       description: "Professional skills validated",
       animation: "fade-up",
@@ -214,7 +214,7 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-             A graduate in Computer Network and Telecommunication Engineering with a strong interest in Front-End development. I focus on creating engaging digital experiences and always strive to deliver the best solutions in every project I work on.
+             A graduate in Computer Science Engineering with a strong interest in Front-End development. I focus on creating engaging digital experiences and always strive to deliver the best solutions in every project I work on.
             </p>
 
                {/* Quote Section */}
