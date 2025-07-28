@@ -223,10 +223,6 @@ export default function FullWidthTabs() {
     id: 2,
     Img: "/public/certificates/cert2.png",
   },
-  {
-    id: 3,
-    Img: "/certificates/certificate3.jpg",
-  },
 ]);
 
   const handleChange = (event, newValue) => setValue(newValue);
