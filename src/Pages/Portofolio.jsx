@@ -217,11 +217,11 @@ export default function FullWidthTabs() {
   const [certificates] = useState([
   {
     id: 1,
-    Img: "/portfolio/public/certificates/cert1.jpg",
+    Img: "/public/cert1.jpg",
   },
   {
     id: 2,
-    Img: "portfolio/public/certificates/cert2.png",
+    Img: "/public/cert2.png",
   },
 ]);
 
