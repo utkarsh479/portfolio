@@ -21,9 +21,9 @@ const Comment = memo(({ comment, formatDate, index, isPinned = false }) => (
             </div>
         )}
         <div className="flex items-start gap-3">
-            {comment.portfolio-comments ? (
+            {comment.profile_image ? (
                 <img
-                    src={comment.portfolio-comments}
+                    src={comment.profile_image}
                     alt={`${comment.user_name}'s profile`}
                     className={`w-10 h-10 rounded-full object-cover border-2 flex-shrink-0  ${
                         isPinned ? 'border-indigo-500/50' : 'border-indigo-500/30'
@@ -310,10 +310,10 @@ const Komentar = () => {
         
         const fileExt = imageFile.name.split('.').pop();
         const fileName = `${Date.now()}_${Math.random().toString(36).substring(2)}.${fileExt}`;
-        const filePath = `portfolio-comments/${fileName}`;
+        const filePath = `profile-images/${fileName}`;
 
         const { error: uploadError } = await supabase.storage
-            .from('portfolio-comments')
+            .from('profile-images')
             .upload(filePath, imageFile);
 
         if (uploadError) {
@@ -321,7 +321,7 @@ const Komentar = () => {
         }
 
         const { data } = supabase.storage
-            .from('portfolio-comments')
+            .from('profile-images')
             .getPublicUrl(filePath);
 
         return data.publicUrl;
