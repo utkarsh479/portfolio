@@ -109,107 +109,10 @@ export default function FullWidthTabs() {
     },
     {
       id: 2,
-      Img: "/images/project2.png",
-      Title: "Portfolio Website",
-      Description: "My personal portfolio built using React and Tailwind CSS.",
-      Link: "https://utkarshportfolio.vercel.app",
-    },
-    {
-      id: 3,
       Img: "/images/project3.png",
       Title: "Hospital System",
       Description: "Admin dashboard for SOS alert with live map and bed booking.",
       Link: "",
-    },
-     {
-      id: 4,
-      Img: "/images/project4.png",
-      Title: "Aritmatika Solver",
-      Description:
-        "Program ini dirancang untuk mempermudah pengguna dalam menyelesaikan soal-soal Aritmatika secara otomatis dengan menggunakan bahasa pemrograman Python. Tujuan utama dari program ini adalah untuk membantu pengguna, terutama pelajar, dalam menyelesaikan soal-soal Aritmatika dengan lebih cepat dan mudah.",
-      Link: "https://aritmatika.vercel.app",
-      Github: "Private",
-      Features: [
-        "Menghitung suku tertentu dari barisan aritmatika dengan menggunakan rumus suku ke-n.",
-        "Menentukan suku pertama atau beda jika hanya dua suku diketahui dalam barisan aritmatika.",
-        "Menghitung jumlah n suku pertama dari deret aritmatika dengan langkah perhitungan yang jelas."
-      ],
-      TechStack: ["Python"]
-    },
-     {
-      id: 4,
-      Img: "/images/project4.png",
-      Title: "Aritmatika Solver",
-      Description:
-        "Program ini dirancang untuk mempermudah pengguna dalam menyelesaikan soal-soal Aritmatika secara otomatis dengan menggunakan bahasa pemrograman Python. Tujuan utama dari program ini adalah untuk membantu pengguna, terutama pelajar, dalam menyelesaikan soal-soal Aritmatika dengan lebih cepat dan mudah.",
-      Link: "https://aritmatika.vercel.app",
-      Github: "Private",
-      Features: [
-        "Menghitung suku tertentu dari barisan aritmatika dengan menggunakan rumus suku ke-n.",
-        "Menentukan suku pertama atau beda jika hanya dua suku diketahui dalam barisan aritmatika.",
-        "Menghitung jumlah n suku pertama dari deret aritmatika dengan langkah perhitungan yang jelas."
-      ],
-      TechStack: ["Python"]
-    },
-     {
-      id: 4,
-      Img: "/images/project4.png",
-      Title: "Aritmatika Solver",
-      Description:
-        "Program ini dirancang untuk mempermudah pengguna dalam menyelesaikan soal-soal Aritmatika secara otomatis dengan menggunakan bahasa pemrograman Python. Tujuan utama dari program ini adalah untuk membantu pengguna, terutama pelajar, dalam menyelesaikan soal-soal Aritmatika dengan lebih cepat dan mudah.",
-      Link: "https://aritmatika.vercel.app",
-      Github: "Private",
-      Features: [
-        "Menghitung suku tertentu dari barisan aritmatika dengan menggunakan rumus suku ke-n.",
-        "Menentukan suku pertama atau beda jika hanya dua suku diketahui dalam barisan aritmatika.",
-        "Menghitung jumlah n suku pertama dari deret aritmatika dengan langkah perhitungan yang jelas."
-      ],
-      TechStack: ["Python"]
-    },
-     {
-      id: 4,
-      Img: "/images/project4.png",
-      Title: "Aritmatika Solver",
-      Description:
-        "Program ini dirancang untuk mempermudah pengguna dalam menyelesaikan soal-soal Aritmatika secara otomatis dengan menggunakan bahasa pemrograman Python. Tujuan utama dari program ini adalah untuk membantu pengguna, terutama pelajar, dalam menyelesaikan soal-soal Aritmatika dengan lebih cepat dan mudah.",
-      Link: "https://aritmatika.vercel.app",
-      Github: "Private",
-      Features: [
-        "Menghitung suku tertentu dari barisan aritmatika dengan menggunakan rumus suku ke-n.",
-        "Menentukan suku pertama atau beda jika hanya dua suku diketahui dalam barisan aritmatika.",
-        "Menghitung jumlah n suku pertama dari deret aritmatika dengan langkah perhitungan yang jelas."
-      ],
-      TechStack: ["Python"]
-    },
-     {
-      id: 4,
-      Img: "/images/project4.png",
-      Title: "Aritmatika Solver",
-      Description:
-        "Program ini dirancang untuk mempermudah pengguna dalam menyelesaikan soal-soal Aritmatika secara otomatis dengan menggunakan bahasa pemrograman Python. Tujuan utama dari program ini adalah untuk membantu pengguna, terutama pelajar, dalam menyelesaikan soal-soal Aritmatika dengan lebih cepat dan mudah.",
-      Link: "https://aritmatika.vercel.app",
-      Github: "Private",
-      Features: [
-        "Menghitung suku tertentu dari barisan aritmatika dengan menggunakan rumus suku ke-n.",
-        "Menentukan suku pertama atau beda jika hanya dua suku diketahui dalam barisan aritmatika.",
-        "Menghitung jumlah n suku pertama dari deret aritmatika dengan langkah perhitungan yang jelas."
-      ],
-      TechStack: ["Python"]
-    },
-     {
-      id: 4,
-      Img: "/images/project4.png",
-      Title: "Aritmatika Solver",
-      Description:
-        "Program ini dirancang untuk mempermudah pengguna dalam menyelesaikan soal-soal Aritmatika secara otomatis dengan menggunakan bahasa pemrograman Python. Tujuan utama dari program ini adalah untuk membantu pengguna, terutama pelajar, dalam menyelesaikan soal-soal Aritmatika dengan lebih cepat dan mudah.",
-      Link: "https://aritmatika.vercel.app",
-      Github: "Private",
-      Features: [
-        "Menghitung suku tertentu dari barisan aritmatika dengan menggunakan rumus suku ke-n.",
-        "Menentukan suku pertama atau beda jika hanya dua suku diketahui dalam barisan aritmatika.",
-        "Menghitung jumlah n suku pertama dari deret aritmatika dengan langkah perhitungan yang jelas."
-      ],
-      TechStack: ["Python"]
     },
 
   ]);
