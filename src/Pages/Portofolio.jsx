@@ -112,7 +112,7 @@ export default function FullWidthTabs() {
       Img: "/healthconnect.png",
       Title: "Hospital System",
       Description: "Admin dashboard for SOS alert with live map and bed booking.",
-      Link: "https://healthconnect-three.vercel.app/",
+      Link: "healthconnect-three.vercel.app",
       DetailsLink:
     },
 
