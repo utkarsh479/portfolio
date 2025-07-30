@@ -87,7 +87,7 @@
       Health connect
     </h1>
     <p class="text-gray-300 max-w-2xl leading-relaxed mb-10">
-      Program ini dirancang untuk mempermudah pengguna dalam menyelesaikan soal-soal Aritmatika secara otomatis dengan menggunakan bahasa pemrogramman Python. Tujuan utama dari program ini adalah untuk membantu pengguna, terutama pelajar, dalam menyelesaikan soal-soal Aritmatika dengan lebih cepat dan mudah.
+      The SOS Alert Web Application, developed as part of the HealthConnect hospital management system, allows users to instantly send their real-time location to the server during emergencies with a single click. Built using HTML, CSS, JavaScript, PHP, and MySQL, this system captures the user's latitude and longitude through browser geolocation and stores it in a secure database table (sos_alerts) along with their user ID and timestamp. Admins can monitor incoming SOS requests, enabling quick response in critical situations. This application forms the foundation for a more advanced emergency response system and can be extended with features like live tracking, Google Maps integration, and SMS/email alerts to emergency contacts.
     </p>
 
     <!-- Image + Details Grid -->
@@ -107,15 +107,18 @@
 
         <!-- Buttons -->
         <div class="flex gap-4 mt-6">
-          <a href="#" class="bg-[#7f5af0] px-5 py-2 rounded-lg hover:opacity-90">Live Demo</a>
-          <a href="#" class="bg-[#2e2e42] px-5 py-2 rounded-lg hover:bg-[#3a3a5a]">Github</a>
+          <a href="healthconnect-three.vercel.app" class="bg-[#7f5af0] px-5 py-2 rounded-lg hover:opacity-90">Live Demo</a>
+          <a href="github.com/utkarsh479/healthconnect" class="bg-[#2e2e42] px-5 py-2 rounded-lg hover:bg-[#3a3a5a]">Github</a>
         </div>
 
         <!-- Techs -->
         <div class="mt-6">
           <h2 class="text-lg font-semibold mb-2">🛠️ Technologies Used</h2>
           <div class="flex gap-2 flex-wrap">
-            <span class="bg-[#2e2e42] px-3 py-1 rounded-full text-sm">Python</span>
+            <span class="bg-[#2e2e42] px-3 py-1 rounded-full text-sm">HTML</span>
+            <span class="bg-[#2e2e42] px-3 py-1 rounded-full text-sm">CSS</span>
+            <span class="bg-[#2e2e42] px-3 py-1 rounded-full text-sm">Vercel</span>
+            <span class="bg-[#2e2e42] px-3 py-1 rounded-full text-sm">MySql</span>
           </div>
         </div>
       </div>
@@ -123,7 +126,7 @@
       <!-- Image -->
       <div>
         <img
-          src="/weatherport.jpg"
+          src="/healthconnect.png"
           alt="project screenshot"
           class="rounded-2xl border border-[#333]"
         />
@@ -134,9 +137,11 @@
     <div class="glass p-6 rounded-xl max-w-3xl">
       <h2 class="text-lg font-semibold text-yellow-400 mb-4">🌟 Key Features</h2>
       <ul class="space-y-3 text-gray-300 list-disc list-inside">
-        <li>Menghitung suku tertentu dari barisan aritmatika dengan menggunakan rumus suku ke-n.</li>
-        <li>Menentukan suku pertama atau beda jika hanya dua suku diketahui dalam barisan aritmatika.</li>
-        <li>Menghitung jumlah n suku pertama dari deret aritmatika dengan langkah perhitungan yang jelas.</li>
+        <li> Location Sharing: With a single click, users can send their live location (latitude and longitude) to the database.</li>
+        <li>Real-Time Alerts: The system captures the time of the alert and the user’s identity (via user_id), storing it in the sos_alerts table.</li>
+        <li>Admin Monitoring: Admins can view incoming SOS requests on the dashboard, including the sender's coordinates and status (pending or resolved).</li>
+        <li>Secure and Scalable: Designed with PHP, MySQL, and JavaScript for secure backend handling and scalable deployment.</li>
+        <li>Future Scope: Features like live tracking, Google Maps integration, and automated SMS/email alerts to emergency contacts can be added.</li>
       </ul>
     </div>
   </body>
