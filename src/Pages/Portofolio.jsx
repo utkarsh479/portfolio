@@ -100,7 +100,7 @@ export default function FullWidthTabs() {
 
   const [projects] = useState([
     {
-      id: 2,
+      id: 1,
       Img: "/healthconnect.png",
       Title: "Hospital System",
       Description: "Admin dashboard for SOS alert with live map and bed booking.",
