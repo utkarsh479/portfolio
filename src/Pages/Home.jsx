@@ -77,12 +77,12 @@ const SocialLink = memo(({ icon: Icon, link }) => (
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
-const WORDS = ["Network & Telecom Student", "Tech Enthusiast"];
+const WORDS = ["Software Developer", "Tech Enthusiast"];
 const TECH_STACK = ["React", "Javascript", "Node.js", "Tailwind"];
 const SOCIAL_LINKS = [
   { icon: Github, link: "https://github.com/utkarsh479" },
   { icon: Linkedin, link: "https://www.linkedin.com/in/utkarsh-khatri-1b2959277?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BWxOOcZtzRFe9MwiFvaZjyQ%3D%3D" },
-  { icon: Instagram, link: "https://www.instagram.com/dev_utkarsh404/?__pwa=1" }
+  { icon: Instagram, link: "https://www.instagram.com/dev_utkarsh.kh/?__pwa=1" }
 ];
 
 const Home = () => {
